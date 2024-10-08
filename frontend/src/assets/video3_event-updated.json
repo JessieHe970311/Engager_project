@@ -1,0 +1,108 @@
+{
+"0": {
+	"dialogue":[1, 22], 
+	"event_type":"question asking"
+}, 
+"1": {
+	"dialogue":[23, 40], 
+	"event_type":"lectorial"
+},
+"2": {
+	"dialogue":[41, 48],
+	"event_type":"group work"
+},
+"3": {
+	"dialogue":[49, 70],
+	"event_type":"question asking"
+},
+"4": {
+	"dialogue":[71, 91], 
+	"event_type":"lectorial"
+},
+"5": {
+	"dialogue":[92, 103], 
+	"event_type":"question asking"
+},
+"6": {
+	"dialogue": [104, 118],
+	"event_type":"lectorial"
+},
+"7": {
+	"dialogue": [119, 144],
+	"event_type":"question asking"
+},
+"8":{
+	"dialogue": [145, 175],
+	"event_type":"lectorial"
+},
+"9":{
+	"dialogue": [176, 189],
+	"event_type":"question asking"
+},
+"10": {
+	"dialogue":[190, 215],
+	"event_type":"question asking"
+},
+"11": {
+	"dialogue":[216, 224],
+	"event_type":"lectorial"
+},
+"12": {
+	"dialogue":[225, 230],
+	"event_type":"question asking"
+},
+"13": {
+	"dialogue":[231, 256],
+	"event_type":"lectorial"
+},
+"14": {
+	"dialogue":[257, 270],
+	"event_type":"question asking"
+},
+"15": {
+	"dialogue":[271, 293],
+	"event_type":"group work"
+},
+"16": {
+	"dialogue":[294, 315],
+	"event_type":"question asking"
+},
+"17":{
+	"dialogue":[316, 323],
+	"event_type":"lectorial"
+},
+"18":{
+	"dialogue":[324, 334],
+	"event_type":"question asking"
+},
+"19":{
+	"dialogue":[335, 353],
+	"event_type":"lectorial"
+},
+"20":{
+	"dialogue":[354, 375],
+	"event_type":"lectorial"
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
