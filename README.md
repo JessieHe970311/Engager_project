@@ -5,6 +5,7 @@ The whole system is composed of the backend and frontend. For the backend, we us
 ### Data Processing
 1. We first need to clip videos into different sessions. Furthermore, different participants should be extract individually.
 2. We have used multiple existing approaches to extract features from each video clip, we have provided links to the corresponding algorithms:
+   
 (1) Emotion valence & arousal: Emotion valence describes the extent to which an emotion is positive or negative, whereas arousal refers to its intensity.
 ```
 https://github.com/deepcam-cn/yolov5-face
@@ -50,6 +51,11 @@ https://github.com/praat/praat
 Directly perform statistics.
 ```
 3. We also used labeling data from the experts. The engagement score of each video clip should be labeled.
+4. Finally, The data is stored in JSON format, and the storage format is as follows.
+```
+For each video clip:
+  The number of minutes each feature (such as nodding) appears is organized in the form of a list. For example, if nodding appears in the 1st and 3rd minutes, then "nod": [1, 3]. If no nodding occurs, then it is empty (i.e., "nod": []). For specific features, see the introduction of step 2.
+```
 
 ### Frontend Setup
 To run the front end, you can execute the following code.
